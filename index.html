@@ -5,10 +5,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+	<div class="todo">
+		<div class="todo__box">
+			<h2 class="todo__title">
+				Список задач
+			</h2>
+			<div class="todo__row">
+				<input class="todo__input" type="text" placeholder="Напишите вашу задачу" id="todoInput" name="placeholder">
+				<button class="todo__btn">Добавить</button>
+			</div>
+			<ul class="todo__list">
+				<li class="todo__item todo__item--checked">задача</li>
+				<li class="todo__item">задача</li>
+				<li class="todo__item">задача</li>
+			</ul>
+		</div>
+	</div>
+	<script src="main.js"></script>
 </body>
 
 </html>
